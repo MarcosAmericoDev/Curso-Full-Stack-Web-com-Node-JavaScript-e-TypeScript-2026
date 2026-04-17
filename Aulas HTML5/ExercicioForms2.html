@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercício de Formulários</title>
+</head>
+<body>
+    <h1>Exercício de Formulários</h1>
+    <form action="processa.html" method="get">
+        <fieldset>
+            <legend>Dados pessoais</legend>
+
+            <label for="nome">Nome</label>
+            <br>
+            <input type="text" name="nome" placeholder="Insira seu nome" id="nome">
+            <br>
+            <label for="email">Email</label>
+            <br>
+            <input type="text" name="email" placeholder="Insira seu email" id="email">
+            <br>
+            <input type="checkbox" name="receber_email" id="receber_email"> <label for="receber_email">Quero receber e-mail</label>
+            <br><br>
+            <label for="senha">Senha</label>
+            <br>
+            <input type="password" name="senha" placeholder="Insira sua senha" id="senha">
+        </fieldset>
+
+        <fieldset>
+            <legend>Informações adicionais</legend>
+            <input type="radio"> Pessoa Física
+            <input type="radio"> Pessoa Jurídica
+        </fieldset>
+        <br>
+        <button>Cadastrar</button>
+    </form>
+</body>
+</html>
