@@ -1,4 +1,20 @@
 
+header {
+    background-color: yellow;
+}
+
+.os_mobile {
+    background-color: lightgray;
+}
+
+#dev_flutter {
+    background-color: orange;
+}
+
+footer {
+    border: 1px solid black;
+}
+
 /*
 a {
     color: green;
