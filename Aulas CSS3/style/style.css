@@ -1,4 +1,15 @@
 
+p {
+    color: red;
+}
+
+p {
+    color: blue;
+}
+
+
+/*
+
 header {
     background-color: yellow;
 }
@@ -15,6 +26,7 @@ footer {
     border: 1px solid black;
 }
 
+*/
 /*
 a {
     color: green;
