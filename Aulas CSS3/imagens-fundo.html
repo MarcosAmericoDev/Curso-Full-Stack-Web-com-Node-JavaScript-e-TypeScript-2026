@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Imagens de Fundo</title>
+
+    <style>
+        .caixa {
+
+            width: 700px;
+            height: 700px;
+            border: 3px dotted red;
+            /*
+            background-color: lightblue;
+            background-image: url('img/fundo-css-escuro.png');
+            background-repeat: no-repeat;
+            background-attachment: fixed; faz se a imagem vai rolar junto com o usuário do site
+            background-position: center; usar attachment fixed faz com que fique em relação ao monitor
+            */
+
+            /*ordem: cor, imagem, repeat, attachment, position*/
+            background: lightgreen url(img/fundo-css-escuro.png) no-repeat scroll center;
+        }
+    </style>
+</head>
+<body>
+    <div class="caixa">
+        <h1>Título do texto</h1>     
+        <p>
+            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Modi impedit reiciendis cupiditate ipsa sapiente, suscipit quae magni quidem. Quam quod vero recusandae optio magnam expedita eos aut suscipit nesciunt obcaecati?
+        </p>
+    </div>
+</body>
+</html>
