@@ -6,54 +6,42 @@
     <title>Mais sobre seletores (prática)</title>
 
     <style>
-        /*
+
+        h1 {
+            color: green;
+            border-bottom: 2px solid gray;
+            padding-bottom: 15px;
+        }
+
+        p>a {
+            color: white;
+            background-color: purple;
+        }
+
         .destaque {
-            background: lightblue
+            color: purple;
         }
-        .titulo {
-            color: red;
-        }
-        p#promocao {
-            color: red;
-        }
-        #subtitulo>h1 {
-            background-color: orange;
-        }
-        */
-
-        h2+p {
-            color: brown;
-            border: 1px solid brown;
-        }
-        
-
     </style>
 </head>
 <body>
-    <div style="border: 1px solid black;">
-        <h1 class="titulo destque">Título da página</h1>
-        <div id="subtitulo" style="background-color: gray;">
-            <h1 class="titulo">Título da página</h1>
-        </div>
-    </div>
+    <h1>Título da Página</h1>
+    <p>
+        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Distinctio ex velit veritatis, quisquam voluptatem tenetur eos asperiores. Vitae itaque a inventore eligendi voluptate. Eius obcaecati repellendus exercitationem unde atque. Consequatur!
+        <br>
+        <a href="">Leia mais</a> -
+        <a href="">Gostei(10)</a>
+    </p>
+
+    <p>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Quod quia similique sunt sint odit explicabo laudantium asperiores eveniet? Doloremque, atque neque minima fuga aspernatur repellat dicta reiciendis pariatur esse odit.
+    </p>
 
     <h2>Subtítulo da página</h2>
-    <p class="destaque destaque">
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquam adipisci aliquid possimus a provident enim reprehenderit et at porro rem, sapiente accusamus ducimus modi! Veniam soluta dignissimos sequi sapiente recusandae.
-    </p>
     <p>
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Ad ea debitis consectetur reprehenderit a blanditiis itaque illum sit voluptatum velit esse, suscipit amet, eum magni perspiciatis, libero eligendi aut impedit?
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa repellendus temporibus nemo optio id minima saepe nesciunt magni cum ex. Ratione deleniti esse atque modi nobis impedit ea, cum maiores.
     </p>
-    <h2>Subtítulo da página</h2>
-    <p>
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi, cupiditate libero? Ullam, ducimus rerum cupiditate facere debitis a adipisci, quia nihil eligendi asperiores rem aut maiores officia, blanditiis modi odit.
+    <p class="destaque">
+        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dolorem enim quia laboriosam corrupti, minima velit unde officia maiores iusto iste totam, id adipisci sequi non eius cupiditate. Et, cumque incidunt.
     </p>
-    <div>
-        <p id="promocao">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum, at magni magnam pariatur modi eaque velit corporis quod dolorem a. Autem voluptas optio ut voluptates earum laboriosam neque dolor modi.
-        </p>
-    </div>
-    <span id="promocao">oi</span>
-
 </body>
 </html>
