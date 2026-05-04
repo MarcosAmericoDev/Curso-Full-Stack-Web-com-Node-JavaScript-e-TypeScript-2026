@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mais sobre seletores (prática)</title>
+
+    <style>
+        /*
+        .destaque {
+            background: lightblue
+        }
+        .titulo {
+            color: red;
+        }
+        p#promocao {
+            color: red;
+        }
+        #subtitulo>h1 {
+            background-color: orange;
+        }
+        */
+
+        h2+p {
+            color: brown;
+            border: 1px solid brown;
+        }
+        
+
+    </style>
+</head>
+<body>
+    <div style="border: 1px solid black;">
+        <h1 class="titulo destque">Título da página</h1>
+        <div id="subtitulo" style="background-color: gray;">
+            <h1 class="titulo">Título da página</h1>
+        </div>
+    </div>
+
+    <h2>Subtítulo da página</h2>
+    <p class="destaque destaque">
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquam adipisci aliquid possimus a provident enim reprehenderit et at porro rem, sapiente accusamus ducimus modi! Veniam soluta dignissimos sequi sapiente recusandae.
+    </p>
+    <p>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Ad ea debitis consectetur reprehenderit a blanditiis itaque illum sit voluptatum velit esse, suscipit amet, eum magni perspiciatis, libero eligendi aut impedit?
+    </p>
+    <h2>Subtítulo da página</h2>
+    <p>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi, cupiditate libero? Ullam, ducimus rerum cupiditate facere debitis a adipisci, quia nihil eligendi asperiores rem aut maiores officia, blanditiis modi odit.
+    </p>
+    <div>
+        <p id="promocao">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum, at magni magnam pariatur modi eaque velit corporis quod dolorem a. Autem voluptas optio ut voluptates earum laboriosam neque dolor modi.
+        </p>
+    </div>
+    <span id="promocao">oi</span>
+
+</body>
+</html>
