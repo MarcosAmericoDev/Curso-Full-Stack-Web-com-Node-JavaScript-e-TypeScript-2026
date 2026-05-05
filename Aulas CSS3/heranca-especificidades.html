@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Herança e Especificidade</title>
+    <style>
+        /* Herança */
+        body {
+            font-family: Arial, Helvetica, sans-serif; 
+            /*Como todo meu documento vai usar isso, ao invés de fazer colocar a font-family em todos os 
+            elementos, eu coloco apenas no topo, fazendo com que os outros herdem do pai essa fonte.*/
+            border: solid 1px red;
+            padding: 3m;
+            margin: 3em;
+        }
+        h1 {
+            /* font-family: Arial, Helvetica, sans-serif; */
+            color: violet;
+            border: inherit; /*faz com que herde isso do pai, oque com border não ocorreria*/
+        }
+
+        p {
+            /* font-family: Arial, Helvetica, sans-serif; */
+            color: black;
+        } 
+    </style>
+</head>
+<body>
+    <h1>Título</h1>
+    <p>Texto padrão</p>
+</body>
+</html>
