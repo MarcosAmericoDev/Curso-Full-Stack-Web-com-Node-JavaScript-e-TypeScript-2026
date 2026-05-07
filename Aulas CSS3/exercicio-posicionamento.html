@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercicio - Posicionamento</title>
+    <style>
+        body {
+            background-color: lightblue;
+        }
+
+        #container-main {
+            width: 900px;
+            margin: 10px auto;
+            background-color: white;
+            padding: 10px;
+            position: relative;
+        }
+
+        header {
+            background-color: dodgerblue;
+            padding: 10px;
+        }
+
+        a {
+            margin: 5px;
+            padding: 5px;
+            text-decoration: none;
+            color: white;
+        }
+
+        a:hover {
+            background-color: white;
+            color: dodgerblue;
+        }
+
+        #novo-site {
+            position: absolute;
+            top: 0;
+            right: 0;
+        }
+
+        #chat {
+            background-color: pink;
+            width: 150px;
+            height: 200px;
+            position: fixed;
+            left: 0;
+            bottom: 0;
+            padding: 10px;
+        }
+
+        textarea {
+            position: relative;
+            width: 125px;
+            height: 75px;
+            margin: 10px auto;
+        }
+    </style>
+</head>
+<body>
+    <div id="container-main">
+        <img id="novo-site" src="img-position/novo.png" alt="" width="100px">
+        <header>
+            <img src="img/logo-magalu.png" alt="" width="150px">
+                <a href="">Home</a>
+                <a href="">Sobre</a>
+                <a href="">Produtos</a>
+                <a href="">Meus pedidos</a>
+                <a href="">Contato</a>
+        </header>
+        <h1>Título do site</h1>
+
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni sit neque fuga vel? Ratione, esse magnam? Dolorum suscipit sequi praesentium distinctio quo magnam molestias optio doloremque asperiores! Hic, quae natus.</p>
+
+        <h1>Título do site</h1>
+
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni sit neque fuga vel? Ratione, esse magnam? Dolorum suscipit sequi praesentium distinctio quo magnam molestias optio doloremque asperiores! Hic, quae natus.</p>
+
+        <h1>Título do site</h1>
+
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni sit neque fuga vel? Ratione, esse magnam? Dolorum suscipit sequi praesentium distinctio quo magnam molestias optio doloremque asperiores! Hic, quae natus.</p>
+
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni sit neque fuga vel? Ratione, esse magnam? Dolorum suscipit sequi praesentium distinctio quo magnam molestias optio doloremque asperiores! Hic, quae natus.</p>
+
+        <h1>Título do site</h1>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni sit neque fuga vel? Ratione, esse magnam? Dolorum suscipit sequi praesentium distinctio quo magnam molestias optio doloremque asperiores! Hic, quae natus.</p>
+
+        <h1>Título do site</h1>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni sit neque fuga vel? Ratione, esse magnam? Dolorum suscipit sequi praesentium distinctio quo magnam molestias optio doloremque asperiores! Hic, quae natus.</p>
+
+    </div>
+
+    <div id="chat">
+        <h3>Chat</h3>
+        <textarea name="chat"></textarea>
+        <br>
+        <button>Enviar chat</button>
+    </div>
+</body>
+</html>
