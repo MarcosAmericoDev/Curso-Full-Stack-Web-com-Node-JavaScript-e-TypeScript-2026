@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Posicionamento</title>
+    <style>
+        body {
+            background-color: purple;
+        }
+
+        #container {
+            width: 700px;
+            background-color: white;
+            margin: 10px auto;
+            padding: 8px;
+            position: relative;
+        }
+
+        .borda {
+            border: 1px solid red;
+        }
+
+        .estatica { /*fluxo normal*/
+            position: static;
+        }
+
+        .relativa {
+            position: relative;
+            top: 30px;
+            left: 30px;
+        }
+
+        .absoluta {
+            position: absolute;
+            width: 500px;
+            right: 2em;
+            margin: 0;
+        }
+        
+        .fixa {
+            position: fixed;
+            width: 200px;
+            height: 120px;
+            bottom: 0;
+            right: 0;
+        }
+    </style>
+</head>
+<body>
+    <div id="container">
+
+        <div class="fixa" style="background-color: green;">
+            <h3>Chat -- Posição Fixa</h3>
+            <button>Enviar mensagem</button>
+        </div>
+
+        <h1 class="borda">Posição absoluta</h1>
+        <p class="borda absoluta" style="background-color: lightblue;">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Temporibus officia corporis animi quasi voluptas. Id cumque hic deleniti quia praesentium ullam in aliquid modi. Commodi distinctio explicabo officiis mollitia consectetur.
+        </p>
+        <p class="borda">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorem amet, obcaecati molestias incidunt laudantium ipsam perferendis. Ad ipsa qui et, officiis quisquam cupiditate optio, similique omnis officia sunt dignissimos vel!
+        </p>
+
+        <h1 class="borda">Posição relativa</h1>
+        <p class="borda relativa" style="background-color: lightgreen;">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Temporibus officia corporis animi quasi voluptas. Id cumque hic deleniti quia praesentium ullam in aliquid modi. Commodi distinctio explicabo officiis mollitia consectetur.
+        </p>
+        <p class="borda">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorem amet, obcaecati molestias incidunt laudantium ipsam perferendis. Ad ipsa qui et, officiis quisquam cupiditate optio, similique omnis officia sunt dignissimos vel!
+        </p>
+
+        <h1 class="borda">Fluxo normal</h1>
+        <p class="borda estatica">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Temporibus officia corporis animi quasi voluptas. Id cumque hic deleniti quia praesentium ullam in aliquid modi. Commodi distinctio explicabo officiis mollitia consectetur.
+        </p>
+        <p class="borda estatica">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorem amet, obcaecati molestias incidunt laudantium ipsam perferendis. Ad ipsa qui et, officiis quisquam cupiditate optio, similique omnis officia sunt dignissimos vel!
+        </p>
+                <p class="borda estatica">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorem amet, obcaecati molestias incidunt laudantium ipsam perferendis. Ad ipsa qui et, officiis quisquam cupiditate optio, similique omnis officia sunt dignissimos vel!
+        </p>
+                <p class="borda estatica">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorem amet, obcaecati molestias incidunt laudantium ipsam perferendis. Ad ipsa qui et, officiis quisquam cupiditate optio, similique omnis officia sunt dignissimos vel!
+        </p>
+                <p class="borda estatica">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorem amet, obcaecati molestias incidunt laudantium ipsam perferendis. Ad ipsa qui et, officiis quisquam cupiditate optio, similique omnis officia sunt dignissimos vel!
+        </p>
+    </div>
+</body>
+</html>
