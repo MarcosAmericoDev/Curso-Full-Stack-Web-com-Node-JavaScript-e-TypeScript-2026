@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Overflow e dimensões de caixa</title>
+    <style>
+        .caixa {
+            width: 600px;
+            height: 300px;
+            /* min-width: 300px; largura minima*/
+            /* max-width: 600px; largura máxima*/
+            /*min height coloca uma altura minima, mas leva em conta preencher no minimo todo o conteúdo dentro do próprio bloco*/
+            border: 1px solid red;
+            background-color: lightgray;
+            overflow: scroll;
+            /*o overflow serve para saber como vai tratar os conteúdos que estão vazando da altura da div, podendo só deixar ele visível fora da caixa (visible), esconde-lo (hidden), possibilidar uma rolagem interna a div (scroll). A barra de scroll irá aparecer independer se precisar ou não na div. Para usar apenas as necessárias, use (auto).*/
+        }
+    </style>
+</head>
+<body>
+    <div class="caixa">
+        <p>
+            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Adipisci sunt ea voluptatibus sed omnis quibusdam, harum culpa? Porro voluptatem at sed quidem sit adipisci fugit, unde tempore, fugiat fuga omnis.
+        </p>
+        <p>
+            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Adipisci sunt ea voluptatibus sed omnis quibusdam, harum culpa? Porro voluptatem at sed quidem sit adipisci fugit, unde tempore, fugiat fuga omnis.
+        </p>
+        <p>
+            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Adipisci sunt ea voluptatibus sed omnis quibusdam, harum culpa? Porro voluptatem at sed quidem sit adipisci fugit, unde tempore, fugiat fuga omnis.
+        </p>
+        <p>
+            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Adipisci sunt ea voluptatibus sed omnis quibusdam, harum culpa? Porro voluptatem at sed quidem sit adipisci fugit, unde tempore, fugiat fuga omnis.
+        </p>
+        <p>
+            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Adipisci sunt ea voluptatibus sed omnis quibusdam, harum culpa? Porro voluptatem at sed quidem sit adipisci fugit, unde tempore, fugiat fuga omnis.
+        </p>
+    </div>
+</body>
+</html>
